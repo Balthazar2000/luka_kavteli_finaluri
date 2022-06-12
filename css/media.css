@@ -1,0 +1,50 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 920px) {
+    .navbar {
+        display: none;
+    }
+
+    .bars {
+        display: block;
+    }
+
+    .contact-title, .contact-info {
+        text-align: center;
+    }
+
+    .contact-wrapper {
+        flex-direction: column;
+    }
+
+    .contact-info, .contact-map {
+        width: 100%;
+    }
+
+    .contact-info {
+        margin-bottom: 30px;
+    }
+    
+}
+
+@media (max-width: 760px) {
+    .article-title {
+        text-align: center;
+    }
+
+    .article-content {
+        flex-direction: column;
+    }
+
+    .article-img, .article-text {
+        width: 100%;
+    }
+
+    .article-img {
+        margin-bottom: 20px;
+    }
+}
